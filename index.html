@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BudgetBuddy – Expense Tracker UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sidebar">
+    <h2>BudgetBuddy</h2>
+    <div class="nav">
+      <a href="#">Dashboard</a>
+      <a href="#">Categories</a>
+      <a href="#">Reports</a>
+      <a href="#">Settings</a>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="header">
+      <div class="balance">Total Balance: ₹25,000</div>
+      <div class="profile"></div>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Total Balance</h3>
+        <p class="green">₹25,000</p>
+      </div>
+      <div class="card">
+        <h3>Total Spent</h3>
+        <p class="red">₹12,000</p>
+      </div>
+      <div class="card">
+        <h3>Savings %</h3>
+        <p class="yellow">52%</p>
+      </div>
+      <div class="card">
+        <h3>Top Category</h3>
+        <p class="red">Food</p>
+      </div>
+    </div>
+
+    <div class="breakdown">
+      <h2>Spending Breakdown</h2><br>
+
+      <label>Food (60%)</label>
+      <div class="bar"><span style="width: 60%; background: red;"></span></div>
+
+      <label>Transport (20%)</label>
+      <div class="bar"><span style="width: 20%; background: orange;"></span></div>
+
+      <label>Bills (40%)</label>
+      <div class="bar"><span style="width: 40%; background: purple;"></span></div>
+    </div>
+
+    <h2>Recent Transactions</h2>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Category</th>
+        <th>Amount</th>
+        <th>Type</th>
+      </tr>
+      <tr>
+        <td>10 Feb</td>
+        <td>Food</td>
+        <td>₹600</td>
+        <td>Expense</td>
+      </tr>
+      <tr>
+        <td>11 Feb</td>
+        <td>Salary</td>
+        <td>₹20,000</td>
+        <td>Income</td>
+      </tr>
+      <tr>
+        <td>12 Feb</td>
+        <td>Transport</td>
+        <td>₹150</td>
+        <td>Expense</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
